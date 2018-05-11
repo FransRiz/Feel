@@ -1,0 +1,40 @@
+h1 { 
+	color: yellow 
+}
+body { 
+	background-color: #A62  
+}
+p { 
+	margin: 50px;
+	padding: 20px 20px 50px;
+	overflow:scroll;
+}
+.bebas{
+	color: yellow;
+}
+#lepas {
+	color: grey;
+}
+.kan{
+	color: red;
+}
+div{
+	margin-left: 20px;
+	padding-left: 20px;
+	height: 200px;
+	width: 300px;
+	background-color: red;
+	border-style: solid;
+	float: left;
+
+}
+.dove{
+	margin-left: 20px;
+	padding-left: 20px;
+	height: 200px;
+	width: 300px;
+	background-color: red;
+	border-style: solid;
+	
+}
+

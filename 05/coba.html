@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Coba</title>
+	<style type="text/css">
+	div.relativ {
+		height: 300px;
+		width: 300px;
+		background-color: lightblue;
+		position: relative;
+		border-radius: 10px;
+		top: 50px;
+		left: 50px;
+		opacity: 0.5;
+		/*transition: height 2s,width 2s;*/
+		transition: liner 1s;
+		
+
+	}
+		div.absolut  {
+		height: 300px;
+		width: 300px;
+		background-color: red;
+		position: absolute;
+		border-radius: 10px;
+		top: 150px;
+		left: 150px;
+		opacity: 0.1;
+		transition: height 2s,width 2s;
+	}
+	div.relativ:hover{
+		width: 100px;
+		height: 100px;
+		transform: rotate(90deg);
+	}
+		a {
+			text-decoration:none;
+		}
+		img {
+			opacity: 0.5;
+			height: 400px;
+			width: 500px;
+		}
+		.segitiga {
+			width: 0px;
+			height: 0px;
+			border-bottom: 100px solid lightpink;
+			border-right: 100px solid green;
+
+		}
+
+
+	</style>
+</head>
+<body>
+<a href="http:/www.amikom.ac.id">Amikom.ac.id</a>
+<div class="relativ"></div>
+<div class="absolut"></div>
+<div class="segitiga"></div>
+
+
+</body>
+</html>
